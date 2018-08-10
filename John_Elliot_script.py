@@ -30,7 +30,7 @@ while (count < int(runs)):
 	options = webdriver.ChromeOptions()  # Optional argument, if not specified will search path.
 	#options.add_argument('headless')
 	options.add_argument('window-size=1900x900')
-	driver = webdriver.Chrome('/Users/ethanmacanas/Desktop/NodeJS/chromedriver')
+	driver = webdriver.Chrome('put path here')
 	driver.get('https://www.johnelliott.co/pages/lebron-james-x-john-elliott-nikelab-icon-friends-family-giveaway')
 
 	user_email = random_email_gen(final_email);
